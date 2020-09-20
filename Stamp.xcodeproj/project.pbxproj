@@ -15,6 +15,11 @@
 		112C28992510A317009AA08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C28972510A317009AA08A /* LaunchScreen.storyboard */; };
 		112C28A42510A317009AA08A /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C28A32510A317009AA08A /* StampTests.swift */; };
 		112C28AF2510A317009AA08A /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C28AE2510A317009AA08A /* StampUITests.swift */; };
+		112C28C12510A423009AA08A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 112C28BC2510A423009AA08A /* background.png */; };
+		112C28C22510A423009AA08A /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 112C28BD2510A423009AA08A /* hana.png */; };
+		112C28C32510A423009AA08A /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 112C28BE2510A423009AA08A /* hoshi.png */; };
+		112C28C42510A423009AA08A /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = 112C28BF2510A423009AA08A /* onpu.png */; };
+		112C28C52510A423009AA08A /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = 112C28C02510A423009AA08A /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		112C28AA2510A317009AA08A /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C28AE2510A317009AA08A /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		112C28B02510A317009AA08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C28BC2510A423009AA08A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "Stamp素材/background.png"; sourceTree = SOURCE_ROOT; };
+		112C28BD2510A423009AA08A /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hana.png; path = "Stamp素材/hana.png"; sourceTree = SOURCE_ROOT; };
+		112C28BE2510A423009AA08A /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hoshi.png; path = "Stamp素材/hoshi.png"; sourceTree = SOURCE_ROOT; };
+		112C28BF2510A423009AA08A /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onpu.png; path = "Stamp素材/onpu.png"; sourceTree = SOURCE_ROOT; };
+		112C28C02510A423009AA08A /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shitumon.png; path = "Stamp素材/shitumon.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		112C288B2510A315009AA08A /* Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				112C28BC2510A423009AA08A /* background.png */,
+				112C28BD2510A423009AA08A /* hana.png */,
+				112C28BE2510A423009AA08A /* hoshi.png */,
+				112C28BF2510A423009AA08A /* onpu.png */,
+				112C28C02510A423009AA08A /* shitumon.png */,
 				112C288C2510A315009AA08A /* AppDelegate.swift */,
 				112C288E2510A315009AA08A /* SceneDelegate.swift */,
 				112C28902510A315009AA08A /* ViewController.swift */,
@@ -233,7 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				112C28992510A317009AA08A /* LaunchScreen.storyboard in Resources */,
+				112C28C32510A423009AA08A /* hoshi.png in Resources */,
+				112C28C22510A423009AA08A /* hana.png in Resources */,
+				112C28C12510A423009AA08A /* background.png in Resources */,
 				112C28962510A317009AA08A /* Assets.xcassets in Resources */,
+				112C28C42510A423009AA08A /* onpu.png in Resources */,
+				112C28C52510A423009AA08A /* shitumon.png in Resources */,
 				112C28942510A315009AA08A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
